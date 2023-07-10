@@ -1,0 +1,135 @@
+body{
+    background-color: black;
+  }
+/*navBar*/
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    color: aliceblue;
+}
+
+.grid-item{
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+#navBar{
+    height: 50px;
+    margin: 0%;
+    margin-bottom: 10px;
+    padding: 0;
+    //background-color: aliceblue;
+}
+
+/*introduction*/
+#intro{
+    background-color: brown;
+    color: aliceblue;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    border-radius: 0 25px 0 25px;
+}
+
+#movie1{
+    position: relative;
+    width: 100%;
+    padding-top: 60%;
+}
+
+#movie1 iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 10%;
+}
+
+h1{
+    color: aliceblue;
+}
+
+.ad{
+    display: block;
+    width: 100%;
+    padding-top: 60%;
+    background-color: brown;
+    border-radius: 0 25px 0 25px;
+}
+
+@media screen and (min-width: 700px){
+    .grid-cont{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #movie1{
+        flex: 50%;
+    }
+    .ad{
+        flex: 50%;
+        background-color: brown;
+        height: 60%;
+        border-radius: 0 25px 0 25px;
+    }
+}
+
+#movie{
+    border: 0.5px;
+    border-color: brown;
+    border-style: solid;
+    min-width: 175px;
+    height: 350px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 10px brown;
+    background-color: brown;
+}
+.m-container{
+    display: flex;
+    overflow-x: auto;
+    margin-top: 10px;    
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
+
+  h1{
+    display: inline;
+    color: aliceblue;
+  }
+  a{
+    float: right;
+    font-size: 30px;
+    color: brown;
+  }
+
+  #movie h2{
+    text-align: center;
+    margin-top: 5%;
+    color: aliceblue;
+  }
+  
+  h2 a{
+    color: aliceblue;
+}
